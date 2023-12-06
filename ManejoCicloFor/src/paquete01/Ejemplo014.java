@@ -3,26 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package paquete03;
+package paquete01;
 
 /**
  *
  * @author reroes
  */
-public class Ejemplo02 {
+public class Ejemplo014 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int i ;
-        
-        for (i = 0; i < 10; i++) {
-            System.out.printf("%d", i);
+        int cadena = 0;
+        for (int i = 1; i <= 10; i++) {
+            cadena += i;
         }
 
-        System.out.printf("%d\n", i);
+        for (int i = 1; i < 11; i++) {
+            cadena += i;
+        }
+        System.out.println(cadena);
 
     }
-}
 
+}
